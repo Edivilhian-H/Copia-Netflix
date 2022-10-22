@@ -22,7 +22,7 @@
             <p id="paragrafo-pronto">Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
 
             <div id="formulario">
-                <input placeholder="Email">
+                <input type="email"  placeholder="Email">
                 <button id="botao-email">Vamos lá <img src="./img/seta.svg" alt="seta"></button>
             </div>
         </div>
@@ -68,25 +68,8 @@
         <button class="bt-05">Vamos lá <img src="./img/seta.svg" alt=""></button>
 
     </div>
+
+    <script src="./script.js"></script>
 </body>
-<script>
-    let botao = document.getElementById("botao-pergunta")
-    let menu = document.getElementById("pergunta")
-    let imagem = document.getElementById("imagem-pergunta") 
 
-    function abacate(){
-        if(menu.style.display == "block") {
-            menu.style.display = "none"
-            imagem.id = "imagem-pergunta"
-        } else {
-            menu.style.display = "block"
-            imagem.id = "imagem-pergunta-girar"
-        }
-
-    }
-
-    botao.addEventListener("click", abacate)
-
-
-</script>
 </html>

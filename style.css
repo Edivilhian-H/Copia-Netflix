@@ -73,6 +73,11 @@ input {
     height: 70px;
 }
 
+#formulario input{
+    font-size: 17px;
+    color: rgba(14, 13, 13, 0.993);
+}
+
 
 .meio{
     background-color: #000;
@@ -188,6 +193,7 @@ h3{
    margin-right: auto;
    font-size: 19px;
    margin-bottom: 15px;
+   color: rgba(14, 13, 13, 0.993);
 }
 
 .bt-05{
